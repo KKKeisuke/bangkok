@@ -42,9 +42,9 @@
 }
 
 body{
-	background-color: #4E4D4D;
+	background-color: #2F2F2F;
 	font-family: 'Noto Sans JP';
-	color: #585454;
+	color: #292929;
 	position: relative;
 	text-align: center;
 }
@@ -55,12 +55,39 @@ body{
 header{
 	font-family: 'TALLDECO', cursive;
 	width: 100%;
-	color: #000;
-	font-size: 35px;
+	color: #C6C6C6;
+	font-size: 33px;
 	font-weight: normal;
 	text-align: left;
 	letter-spacing: 1px;
-	margin-top: 2%; 
+	padding: 2%;
+	box-sizing: border-box;
+}
+header .container{
+	display: flex;
+	justify-content: space-between;
+}
+header .title{
+	display: inline-block;
+}
+.backTop{
+	/* position: fixed;
+	top: 2%;
+	right: 5%; */
+	font-size: 16px;
+	line-height: 1.2;
+	font-weight: normal;
+	letter-spacing: 1px;
+	display: inline-block;
+}
+.backTop a{
+	cursor: pointer;
+	text-decoration: none;
+	color: #C6C6C6;
+}
+
+.backTop a:hover{
+	opacity: 0.7;
 }
 .secTit{
 	display: inline-block;
@@ -68,8 +95,8 @@ header{
 	letter-spacing: 2px;
 	font-family: 'TALLDECO', cursive;
 	font-size: 24px;
-	border-bottom: 3px solid #000;
-	color: #000;
+	border-bottom: 3px solid #C6C6C6;
+	color: #C6C6C6;
 	font-weight: normal;
 }
 .box{
@@ -83,7 +110,7 @@ header{
 }
 .txtBox{
 	width: 48.5%;
-	background: #B9A8A8;
+	background: rgba(255, 255, 255, 0.65);
 	font-size: 2.7vw;
 	padding: 2%;
 	display: flex;

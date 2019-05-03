@@ -56,5 +56,17 @@ header{
 	font-family: 'TALLDECO', cursive;
 	width: 100%;
 }
-
-
+.box{
+	width: 100%;
+	background: #B9A8A8;
+	font-size: 0;
+}
+.imgBox{
+	display: inline-block;
+	width: 50%;
+}
+.txtBox{
+	display: inline-block;
+	width: 50%;
+	font-size: 18px;
+}

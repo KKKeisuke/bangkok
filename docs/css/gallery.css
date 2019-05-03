@@ -110,7 +110,8 @@ header .title{
 }
 .txtBox{
 	width: 48.5%;
-	background: rgba(255, 255, 255, 0.65);
+	color: #FFF;
+	/* background: rgba(255, 255, 255, 0.65); */
 	font-size: 2.7vw;
 	padding: 2%;
 	display: flex;

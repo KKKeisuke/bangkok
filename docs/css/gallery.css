@@ -55,18 +55,37 @@ body{
 header{
 	font-family: 'TALLDECO', cursive;
 	width: 100%;
+	color: #000;
+	font-size: 35px;
+	font-weight: normal;
+	text-align: left;
+	letter-spacing: 1px;
+	margin-top: 2%; 
+}
+.secTit{
+	display: inline-block;
+	margin: 8% auto 3%;
+	letter-spacing: 2px;
+	font-family: 'TALLDECO', cursive;
+	font-size: 24px;
+	border-bottom: 3px solid #000;
+	color: #000;
+	font-weight: normal;
 }
 .box{
 	width: 100%;
-	background: #B9A8A8;
-	font-size: 0;
+	margin-bottom: 3%;
+	display: flex;
+	justify-content: space-between;
 }
 .imgBox{
-	display: inline-block;
-	width: 50%;
+	width: 46.5%;
 }
 .txtBox{
-	display: inline-block;
-	width: 50%;
-	font-size: 18px;
+	width: 46.5%;
+	background: #B9A8A8;
+	font-size: 2.7vw;
+	padding: 2%;
+	display: flex;
+	align-items: center;
 }
